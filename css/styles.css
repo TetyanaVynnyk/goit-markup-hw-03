@@ -181,14 +181,16 @@ button {
 }
 
 .main-title {
+    width: 700px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 30px;
-
 }
 
 .modal-btn {
@@ -217,9 +219,16 @@ button {
 /* =============</HERO>================== */
 
 /* =============<Main principles of bussiness>====== */
+.principles-section{
+    padding-bottom: 0px;
+}
+
 .principles-list {
     display: flex;
     gap: 30px;
+}
+.principles-list-item{
+    width: 270px;
 }
 
 .internal-block-title {
@@ -262,14 +271,16 @@ button {
 .employee {
     flex-basis: calc((100%-90px)/4);
 }
-
+.employee-description{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .employee-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -291,9 +302,10 @@ button {
     background: #2F303A;
 }
 
-.logo-link {
+.footer-logo-link {
     display: inline-block;
     margin-bottom: 20px;
+    margin-right: 0px;
 }
 
 .second-logo-word-footer {
@@ -349,7 +361,7 @@ button {
 }
 
 .portfolio-btn:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 8px;
 }
 
 .portfolio-menu-btn {
@@ -394,7 +406,10 @@ button {
 
 .portfolio-description {
     border: 1px solid #EEEEEE;
+    padding-top: 20px;
+    padding-right: 24px;
     padding-bottom: 20px;
+    padding-left: 24px;
 }
 
 .portfolio-item-title {
